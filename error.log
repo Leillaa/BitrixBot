@@ -1,0 +1,692 @@
+2024-02-13 09:30:50,366 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 49, in new_bot
+    update.message.reply_text('test')
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2024-02-13 09:53:37,406 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 49, in new_bot
+    user_input = update.message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+2024-02-13 09:54:25,952 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 49, in new_bot
+    user_input = update.message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+2024-02-13 11:42:27,593 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 49, in new_bot
+    return save_token(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 62, in save_token
+    logger.info(f'Пользователь {message.from_user.full_name}({message.from_user.id}) написал {update.message.text}')
+AttributeError: 'NoneType' object has no attribute 'text'
+2024-02-13 11:43:03,065 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 45, in new_bot
+    logger.info(f'Пользователь {message.from_user.full_name}({message.from_user.id}) в функции "new_bot"')
+AttributeError: 'NoneType' object has no attribute 'from_user'
+2024-02-13 11:44:55,483 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 49, in new_bot
+    return save_token(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 62, in save_token
+    logger.info(f'Пользователь {message.from_user.full_name}({message.from_user.id}) написал {update.message.text}')
+AttributeError: 'NoneType' object has no attribute 'text'
+2024-02-13 11:50:44,510 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 48, in new_bot
+    return save_token(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 61, in save_token
+    if update.message.text:
+AttributeError: 'NoneType' object has no attribute 'text'
+2024-02-13 11:52:06,116 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 48, in new_bot
+    return save_token(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 61, in save_token
+    if update.message.text:
+AttributeError: 'NoneType' object has no attribute 'text'
+2024-02-13 12:01:27,708 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 48, in new_bot
+    return save_token(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 67, in save_token
+    update.message.reply_text("Пожалуйста, введите токен, который вы получили от BotFather.")
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2024-02-13 12:59:35,471 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 48, in new_bot
+    return save_token(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 60, in save_token
+    context.user_data['TOKEN'] = update.message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+2024-02-13 14:18:19,242 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 48, in new_bot
+    return save_token(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 68, in save_token
+    update.message.reply_text("Отлично! Теперь мне нужна ссылка на ваш сайт для которого вы делаете бота")
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2024-02-13 16:22:46,716 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\conversationhandler.py", line 487, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 38, in new_bot
+    if command == 'newbot':
+NameError: name 'command' is not defined
+2024-02-13 16:49:13,076 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 131, in button
+    update.message.reply_text(
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2024-02-13 16:50:13,264 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 131, in button
+    context.bot.send_message(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\decorator.py", line 231, in fun
+    args, kw = fix(args, kw, sig)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\decorator.py", line 203, in fix
+    ba = sig.bind(*args, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\inspect.py", line 3045, in bind
+    return self._bind(args, kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\inspect.py", line 2960, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'text'
+2024-02-13 16:51:50,184 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 132, in button
+    start(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 27, in start
+    update.message.reply_text(
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2024-02-13 16:56:12,823 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 425, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 145, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 130, in button
+    query.edit_message_text(text="Это конструктор ботов для навигации по сайту написаному на Bitrix. Чтобы создать такого бот и выложить его к вам на сервер вам понадабятся некоторые данные!\n1.URL сайта\n2.Логин и пароль bitrix\n3.Логин и пароль от сервера на котором будет бот\n4.Имя пользователя и пароль баы данных сайта",
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\callbackquery.py", line 149, in edit_message_text
+    return self.bot.edit_message_text(text, chat_id=self.message.chat_id,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\bot.py", line 78, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\bot.py", line 2021, in edit_message_text
+    return self._message('editMessageText', data, timeout=timeout, reply_markup=reply_markup,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\bot.py", line 215, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\bot.py", line 184, in _post
+    return self.request.post('{}/{}'.format(self.base_url, endpoint), data=data,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\utils\request.py", line 325, in post
+    result = self._request_wrapper('POST', url,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\utils\request.py", line 250, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Inline keyboard expected
+2024-02-14 10:27:14,682 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 134, in button
+    new_bot(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 60, in new_bot
+    save_token(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 70, in save_token
+    text = update.message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+2024-02-14 10:30:02,433 | ERROR | No error handlers are registered, logging exception. | dispatcher.dispatch_error
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\telegram\ext\handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 141, in button
+    new_bot(update, context)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\func.py", line 62, in new_bot
+    text = update.message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+2024-02-15 16:36:41,072 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=IndexError('list index out of range')> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 111, in save_lp_bitrix
+    data['login_bitrix'] = text[1]
+IndexError: list index out of range
+2024-02-15 17:52:59,246 | ERROR | Cause exception while getting updates. | dispatcher.start_polling
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 586, in _request
+    await resp.start(conn)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client_reqrep.py", line 920, in start
+    self._continue = None
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2024-02-16 09:33:31,903 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'FSMLowprice' is not defined")> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 62, in new_bot
+    await FSMLowprice.step_1.set()
+NameError: name 'FSMLowprice' is not defined
+2024-02-16 11:07:43,023 | ERROR | Cause exception while getting updates. | dispatcher.start_polling
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 586, in _request
+    await resp.start(conn)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client_reqrep.py", line 905, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2024-02-16 11:07:48,158 | ERROR | Cause exception while getting updates. | dispatcher.start_polling
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 861, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2024-02-16 11:34:15,045 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=MessageToDeleteNotFound('Message to delete not found')> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 37, in helper
+    await delete_message(message)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\func.py", line 183, in delete_message
+    await call.delete()
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\types\message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+2024-02-16 11:34:26,159 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=MessageToDeleteNotFound('Message to delete not found')> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 37, in helper
+    await delete_message(message)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\func.py", line 181, in delete_message
+    await call.message.delete()
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\types\message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+2024-02-16 11:35:17,615 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse reply keyboard markup json object")> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 37, in helper
+    await bot.send_message(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse reply keyboard markup json object
+2024-02-18 11:38:06,261 | ERROR | Cause exception while getting updates. | dispatcher.start_polling
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 586, in _request
+    await resp.start(conn)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client_reqrep.py", line 920, in start
+    self._continue = None
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2024-02-19 09:07:52,164 | ERROR | Cause exception while getting updates. | dispatcher.start_polling
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 586, in _request
+    await resp.start(conn)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client_reqrep.py", line 920, in start
+    self._continue = None
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2024-02-19 09:07:57,182 | ERROR | Cause exception while getting updates. | dispatcher.start_polling
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\connector.py", line 1155, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\connector.py", line 874, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 861, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 562, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\connector.py", line 540, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\connector.py", line 901, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\connector.py", line 1169, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2024-02-19 09:08:57,937 | ERROR | Cause exception while getting updates. | dispatcher.start_polling
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 586, in _request
+    await resp.start(conn)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client_reqrep.py", line 905, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2024-02-19 09:09:39,065 | ERROR | Cause exception while getting updates. | dispatcher.start_polling
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 586, in _request
+    await resp.start(conn)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client_reqrep.py", line 905, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2024-02-19 10:09:15,649 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('login_server')> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 183, in save_lp_db
+    await check(message, state)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 209, in check
+    f"Логин и пароль от сервера: {data['login_server']}, {data['password_server']}\n"
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\storage.py", line 439, in __getitem__
+    return self._data[item]
+KeyError: 'login_server'
+2024-02-19 10:27:45,084 | ERROR | Cause exception while getting updates. | dispatcher.start_polling
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client.py", line 586, in _request
+    await resp.start(conn)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\client_reqrep.py", line 920, in start
+    self._continue = None
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiohttp\helpers.py", line 725, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2024-02-26 11:19:33,167 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-41' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("object NoneType can't be used in 'await' expression")> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 248, in end
+    await create_bot(token, url, log_bit, pass_bit, log_serv, pass_serv, log_db, pass_db)
+TypeError: object NoneType can't be used in 'await' expression
+2024-02-26 11:21:00,884 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=FileExistsError(17, 'Невозможно создать файл, так как он уже существует')> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 248, in end
+    create_bot(token, url, log_bit, pass_bit, log_serv, pass_serv, log_db, pass_db)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\create_bot.py", line 10, in create_bot
+    shutil.copytree('bot_copy', 'bot')
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\shutil.py", line 568, in copytree
+    return _copytree(entries=entries, src=src, dst=dst, symlinks=symlinks,
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\shutil.py", line 467, in _copytree
+    os.makedirs(dst, exist_ok=dirs_exist_ok)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [WinError 183] Невозможно создать файл, так как он уже существует: 'bot'
+2024-02-27 10:30:51,730 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=IndexError('list index out of range')> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 152, in save_lp_server
+    data['password_server'] = text[2]
+IndexError: list index out of range
+2024-02-27 10:34:42,572 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NoValidConnectionsError(None, 'Unable to connect to port 22 on 127.0.0.1')> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 241, in end
+    create_bot(token, url, log_bit, pass_bit, host, log_serv, pass_serv, log_db, pass_db)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\create_bot.py", line 28, in create_bot
+    ssh = ssh_connect(host_serv, log_serv, pass_serv)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\deploy.py", line 21, in ssh_connect
+    ssh.connect(host, username=username, password=password)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\paramiko\client.py", line 409, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 127.0.0.1
+2024-02-27 10:41:46,603 | ERROR | Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NoValidConnectionsError(None, 'Unable to connect to port 22 on 127.0.0.1')> | base_events.default_exception_handler
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\handlers\save_data.py", line 241, in end
+    create_bot(token, url, log_bit, pass_bit, host, log_serv, pass_serv, log_db, pass_db)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\create_bot.py", line 28, in create_bot
+    ssh = ssh_connect(host_serv, log_serv, pass_serv)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\deploy.py", line 21, in ssh_connect
+    ssh.connect(host, username=username, password=password)
+  File "C:\Users\user\PycharmProjects\pythonBotBitrix\venvs\lib\site-packages\paramiko\client.py", line 409, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 127.0.0.1
